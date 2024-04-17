@@ -1,0 +1,23 @@
+{
+  "name": "nlp",
+  "version": "1.0.0",
+  "description": "testing",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "body-parser": "^1.20.2",
+    "compromise": "^14.13.0",
+    "compromise-sentences": "^0.3.0",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "html": "^1.0.0",
+    "nlp": "^0.0.0",
+    "node-nlp": "^4.27.0"
+  }
+}
