@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="/convert-sentence" method="POST">
+        <input
+          name="sentence"
+          type="text"
+          id="inputText"
+          placeholder="Enter a sentence"
+        />
+        <select name="conversionType" id="conversionType">
+          <option value="past">Past Tense</option>
+          <option value="present">Present Tense</option>
+          <option value="future">Future Tense</option>
+          <option value="negative">Negative Form</option>
+        </select>
+        <button id="convert-btn" type="submit">Convert</button>
+      </form>
+      <div class="response" id="responseText">
+        <strong><%= pastTense %></strong>
+      </div>
+    </div>
+  </body>
+</html>
